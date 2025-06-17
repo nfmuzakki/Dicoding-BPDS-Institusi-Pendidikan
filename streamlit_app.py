@@ -20,7 +20,7 @@ def data_preprocessing(data_input, single_data, n):
         return df[0 : n]
 
 def model_predict(df):
-    model = joblib.load('Model Tersimpan/Model_Random_Forest.joblib')
+    model = joblib.load('Model Tersimpan/Model_Random_Forest.pkl')
     return model.predict(df)
 
 def color_mapping(value):

@@ -3,7 +3,7 @@ matplotlib
 numpy
 openpyxl
 pandas
-scikit-learn
+scikit-learn==1.2.2
 scipy
 seaborn
 streamlit
