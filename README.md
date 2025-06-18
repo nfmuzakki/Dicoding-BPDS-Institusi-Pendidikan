@@ -12,7 +12,7 @@ Tingginya angka dropout ini menjadi permasalahan serius karena dapat memengaruhi
 
 Sebagai calon data scientist, Anda diminta untuk membantu menyelesaikan permasalahan ini melalui pendekatan data science, dengan tujuan utama meningkatkan tingkat kelulusan mahasiswa dan menjaga kualitas institusi.
 
-### Business Problem
+### Permasalahan Bisnis
 
 Tingginya angka dropout di Jaya Jaya Institut menimbulkan berbagai tantangan, antara lain:
 
@@ -108,7 +108,7 @@ Dashboard ini dibangun berdasarkan hasil eksplorasi data dan validasi feature im
 * **Dropout lebih banyak terjadi pada mahasiswa usia lebih tua** saat mulai kuliah, menunjukkan potensi tantangan adaptasi atau beban luar kampus.
 
 > [!NOTE]
-> Video singkat penjelasan business dashboard dan kesimpulannya dapat dilihat pada [link YouTube ini](https://youtu.be/ka3KIso99Sg 'Jaya Jaya Institute - Student Status Dashboard').
+> Video singkat penjelasan business dashboard dan kesimpulannya dapat dilihat pada [link YouTube ini](https://youtu.be/j1DGjhtVrqA 'Jaya Jaya Institute - Student Status Dashboard').
 
 ## Model Interpretability
 
@@ -135,7 +135,7 @@ variabel yang paling berpengaruh terhadap prediksi **dropout mahasiswa**:
 * Fitur lain seperti **Debtor**, **Jumlah Evaluasi**, dan **Curricular\_units\_enrolled** juga berkontribusi tetapi tidak sebesar fitur akademik dan keuangan.
 
 
-## **Machine Learning Prediction System**
+## **Menjalankan Sistem Machine Learning**
 
 Untuk dapat membantu institusi dalam memprediksi kemungkinan jika siswanya akan dropout dan mencegah hal tersebut lebih dini, dapat menggunakan sistem prediksi yang telah dibangun. Sistem dibangun menggunakan Streamlit dan untuk menjalankan sistem tersebut secara local, dapat menjalankan kode berikut pada Terminal,
 
@@ -155,7 +155,7 @@ Sistem prediksi tersebut juga dapat diakses secara langsung yang sudah di-deploy
 3. **Mahasiswa yang lebih tua saat masuk kuliah** lebih berisiko tidak menyelesaikan studi.
 4. **Beasiswa** dapat menjadi alat bantu retensi karena berkorelasi positif dengan kelulusan.
 
-### Recommended Action Items
+### Rekomendasi Action Items
 
 1. **Intervensi Dini Akademik**: Pantau performa semester 1 & 2 secara intensif. Berikan pendampingan bagi yang nilainya rendah.
 2. **Monitoring Pembayaran UKT**: Buat sistem peringatan dini bagi mahasiswa yang menunggak.
