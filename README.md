@@ -12,16 +12,21 @@ Tingginya angka dropout ini menjadi permasalahan serius karena dapat memengaruhi
 
 Sebagai calon data scientist, Anda diminta untuk membantu menyelesaikan permasalahan ini melalui pendekatan data science, dengan tujuan utama meningkatkan tingkat kelulusan mahasiswa dan menjaga kualitas institusi.
 
+Berikut adalah versi revisi bagian **Permasalahan Bisnis** dari proyek Anda agar selaras dengan gaya dan struktur contoh yang diberikan:
+
 ### Permasalahan Bisnis
 
-Tingginya angka dropout di Jaya Jaya Institut menimbulkan berbagai tantangan, antara lain:
+Permasalahan bisnis yang akan diselesaikan melalui proyek ini adalah:
 
-* Penurunan reputasi dan akreditasi institusi pendidikan.
-* Berkurangnya tingkat kepercayaan masyarakat terhadap institusi.
-* Terhambatnya upaya pembinaan dan pemberian bantuan kepada mahasiswa secara tepat waktu.
-* Risiko berkurangnya daya saing institusi di tengah kompetisi dunia pendidikan yang semakin ketat.
+1. **Mengidentifikasi faktor-faktor utama yang memengaruhi risiko dropout mahasiswa**, termasuk faktor akademik, keuangan, usia, dan status beasiswa.
+2. **Menentukan pola karakteristik mahasiswa yang cenderung mengalami dropout**, seperti performa akademik di awal perkuliahan dan keterlambatan pembayaran UKT.
+3. **Menyediakan alat bantu berupa business dashboard dan sistem prediksi** yang memudahkan pihak institusi untuk memantau, menganalisis, dan mengintervensi mahasiswa berisiko secara lebih dini.
 
-Untuk itu, diperlukan sistem prediksi yang dapat mengidentifikasi mahasiswa yang berpotensi dropout sedini mungkin. Dengan begitu, institusi dapat mengambil langkah intervensi yang lebih efektif untuk mencegah dropout dan meningkatkan performa akademik mahasiswa secara keseluruhan.
+Dengan menyelesaikan permasalahan ini, Jaya Jaya Institut diharapkan dapat:
+
+* Menurunkan **angka dropout** mahasiswa secara signifikan.
+* Memberikan **intervensi yang lebih tepat sasaran** kepada mahasiswa yang membutuhkan.
+* **Meningkatkan tingkat kelulusan dan menjaga reputasi** serta akreditasi institusi di tengah persaingan dunia pendidikan yang kompetitif.
 
 ### Cakupan Proyek
 
@@ -48,7 +53,7 @@ Lingkup pekerjaan yang akan dilakukan dalam proyek ini adalah sebagai berikut:
 
 ### Persiapan
 
-**Data source:** [Students' Performance data](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance 'Dicoding GitHub - Students Performance data')
+**Sumber data:** [Students' Performance data](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance 'Dicoding GitHub - Students Performance data')
 
 **Setup environment:**
 1. Create Python Virtual Environment
@@ -110,7 +115,7 @@ Dashboard ini dibangun berdasarkan hasil eksplorasi data dan validasi feature im
 > [!NOTE]
 > Video singkat penjelasan business dashboard dan kesimpulannya dapat dilihat pada [link YouTube ini](https://youtu.be/j1DGjhtVrqA 'Jaya Jaya Institute - Student Status Dashboard').
 
-## Model Interpretability
+### Model Interpretability
 
 Berdasarkan **SHAP summary plot** berikut:
 
